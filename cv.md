@@ -1,5 +1,4 @@
 # **Maksim Ivashniou**
-===
 
 ## **Contact information:**
 
@@ -14,12 +13,10 @@
 [GitHub](https://github.com/MaksimIvashniou)
 
 [LinkedIn](https://www.linkedin.com/in/maksim-ivashniou-2087191a4/)
-===
 
 ## **About Myself:**
 
 Hello. I'm 23 years old. I'm learning back-end development. I joined the EPAM lab in the QA department in 2019 and got an amazing teamwork experience. I went to RS School on the recommendation of an EPAM employee to improve my front-end development skills and become a good full-stack developer.
-===
 
 ## **Skills**
 
@@ -44,7 +41,6 @@ Hello. I'm 23 years old. I'm learning back-end development. I joined the EPAM la
 ### **Soft:**
 * Good working experience based on kanban methodology
 * Newcomers onboarding and adaptation
-===
 
 ## **Code examples**
 ```
@@ -62,20 +58,16 @@ static uniqueLoginValidator(authService: AuthenticationService, findLikeDublicat
     }
   }
 ```
-===
 
 ## **Education**
 * Belarussian-Russian University
     + Engineering-Economic department
-===
 
 ## **Experience**
 * QA Tester (trainee): July 2019 - April 2020
-===
 
 ## **Cources**
 * RS School Cource "JS/FE Pre-School 2022Q2" - **In progress**
-===
 
 ## **Languages**
 * Belarusian - Native
