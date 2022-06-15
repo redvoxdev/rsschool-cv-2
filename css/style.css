@@ -5,7 +5,7 @@
 }
 
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 body {
@@ -65,7 +65,7 @@ header .name-wrapper {
 }
 
 header h1 {
-    
+
     margin: 20px;
     font-size: 2rem;
     font-weight: 700;
@@ -133,7 +133,9 @@ header h1 {
     text-transform: uppercase;
 }
 
-.languages-info ul li .language-lvl, .education-block p:not(.education-title), .courses-info .cource-name{
+.languages-info ul li .language-lvl,
+.education-block p:not(.education-title),
+.courses-info .cource-name {
     margin-left: 15px;
 }
 
@@ -141,7 +143,8 @@ header h1 {
     color: var(--dark-purple-color);
 }
 
-.education-block p.education-title, .courses-info p.course-location-title{
+.education-block p.education-title,
+.courses-info p.course-location-title {
     font-weight: 600;
 }
 
@@ -167,7 +170,7 @@ nav ul li a {
 
 .right-column .fa-solid {
     margin-right: 15px;
-    line-height: inherit!important;
+    line-height: inherit !important;
     vertical-align: middle;
 }
 
@@ -207,7 +210,8 @@ nav ul li a {
     justify-content: space-between;
 }
 
-.experience-location, .experience-duties-and-responsibilities-text {
+.experience-location,
+.experience-duties-and-responsibilities-text {
     font-weight: 600;
 }
 
@@ -257,7 +261,7 @@ nav ul li a {
     width: 90px;
 }
 
-.skills-text--large{
+.skills-text--large {
     width: 145px;
 }
 
@@ -287,7 +291,8 @@ nav ul li a {
     list-style-type: disc;
 }
 
-.fa-solid, .fa-brands {
+.fa-solid,
+.fa-brands {
     color: var(--dark-purple-color);
 }
 
