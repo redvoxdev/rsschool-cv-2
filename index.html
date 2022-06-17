@@ -53,11 +53,11 @@
                                 </li>
                                 <li class="email">
                                     <i class="fa-solid fa-envelope" title="E-mail"></i>
-                                    <p><a href="mailto:maksim.ivashniou@gmail.com">maksim.ivashniou@gmail.com</a></p>
+                                    <p><a href="mailto:maksim.ivashniou@gmail.com">maksim.ivashniou<span class="at-symbol">@</span>gmail.com</a></p>
                                 </li>
                                 <li class="sotial-telegram">
                                     <i class="fa-brands fa-telegram" title="Telegram"></i>
-                                    <p><a href="https://t.me/Maksim_Ivashniou">@Maksim_Ivashniou</a></p>
+                                    <p><a href="https://t.me/Maksim_Ivashniou"><span class="at-symbol">@</span>Maksim_Ivashniou</a></p>
                                 </li>
                             </ul>
                         </section>
@@ -66,15 +66,13 @@
                             <ul>
                                 <li>
                                     <p class="language-name">Russian</p>
-                                    <p class="language-lvl">Native</p>
+                                    <p class="language-name">Russian<span> - Native</span></p>
                                 </li>
                                 <li>
-                                    <p class="language-name">Belarussian</p>
-                                    <p class="language-lvl">Native</p>
+                                    <p class="language-name">Belarussian<span> - Native</span></p>
                                 </li>
                                 <li>
-                                    <p class="language-name">English</p>
-                                    <p class="language-lvl">Pre-Intermediate</p>
+                                    <p class="language-name">English<span> - Pre-Intermediate</span></p>
                                 </li>
                             </ul>
                         </section>
@@ -156,7 +154,7 @@
                                     Skills
                                 </h2>
                             </div>
-                            <div class="block-helper">
+                            <!-- <div class="block-helper">
                                 <ul>
                                     <li class="skills-block">
                                         <p class="skill-lvl-text">Basic</p>
@@ -209,7 +207,7 @@
                                         </ul>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <div class="programming-languages-skills">
                                 <h3 class="block-title">Programming languages:</h3>
                                 <ul class="skills-wrapper">
@@ -378,8 +376,9 @@
                             </div>
                             <pre>
 <code>
-static uniqueLoginValidator(authService: AuthenticationService, findLikeDublicate: boolean): AsyncValidatorFn {
-    return (control: AbstractControl): Observable<ValidationErrors> => {
+static uniqueLoginValidator(authService: AuthenticationService,
+                            findLikeDublicate: boolean): AsyncValidatorFn {
+    return (control: AbstractControl): Observable&lt;ValidationErrors&gt; => {
         let data: UserAuth = {
         login: control.value
         }
