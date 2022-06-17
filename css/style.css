@@ -5,7 +5,7 @@
 }
 
 html {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 body {
@@ -28,22 +28,52 @@ a {
     color: var(--dark-purple-color);
 }
 
+/* start: navigation container */
+
+.nav .nav-list {
+    display: flex;
+    background-color: var(--dark-purple-color);
+}
+
+.nav .nav-list .nav-item {
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    border-left: 1px solid var(--white-color);
+}
+
+.nav .nav-list .nav-item:first {
+    border-left: none;
+}
+
+.nav .nav-list .nav-item a {
+    color: var(--white-color);
+}
+
+/* end: navigation container */
+
+/*  */
+
 .two-columns {
     display: flex;
 }
 
 .left-column {
-    width: 42%;
+    width:36%;
     background-color: var(--light-purple-color);
 }
 
 .right-column {
-    width: 58%;
+    width: 64%;
 }
 
 .right-column-body {
     padding: 40px;
 }
+
+/*  */
+
+/* start: header container */
 
 header {
     /* padding: 30px; */
@@ -65,7 +95,7 @@ header .name-wrapper {
 }
 
 header h1 {
-    
+
     margin: 20px;
     font-size: 2rem;
     font-weight: 700;
@@ -73,6 +103,10 @@ header h1 {
     text-transform: uppercase;
     letter-spacing: 7px;
 }
+
+/* end: header container */
+
+/* start: contacts container */
 
 .block-title {
     text-transform: uppercase;
@@ -87,7 +121,6 @@ header h1 {
     text-align: center;
     background-color: var(--dark-purple-color);
     color: var(--white-color);
-    width: 60%;
     margin: 40px auto 30px;
     padding: 10px 30px;
 }
@@ -121,6 +154,16 @@ header h1 {
     color: var(--dark-purple-color);
 }
 
+.at-symbol {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* end: contacts container */
+
+/* start: languages container */
+/* start: education container */
+/* start: cources container */
+
 .languages-info ul {
     list-style-type: disc;
     margin-left: 30px;
@@ -133,41 +176,27 @@ header h1 {
     text-transform: uppercase;
 }
 
-.languages-info ul li .language-lvl, .education-block p:not(.education-title), .courses-info .cource-name{
+.education-block p:not(.education-title),
+.courses-info .course-name {
     margin-left: 15px;
 }
 
-.courses-info .cource-name a {
+.courses-info .course-name a {
     color: var(--dark-purple-color);
 }
 
-.education-block p.education-title, .courses-info p.course-location-title{
+.education-block p.education-title,
+.courses-info p.course-location-title {
     font-weight: 600;
 }
 
-nav ul {
-    display: flex;
-    background-color: var(--dark-purple-color);
-}
-
-nav ul li {
-    padding: 15px;
-    width: 100%;
-    text-align: center;
-    border-left: 1px solid var(--white-color);
-}
-
-nav ul li:first {
-    border-left: none;
-}
-
-nav ul li a {
-    color: var(--white-color);
-}
+/* end: languages container */
+/* end: education container */
+/* end: cources container */
 
 .right-column .fa-solid {
     margin-right: 15px;
-    line-height: inherit!important;
+    line-height: inherit !important;
     vertical-align: middle;
 }
 
@@ -198,7 +227,7 @@ nav ul li a {
     /* margin-left: 10px; */
 }
 
-/* experience */
+/* start: experience container */
 
 .experience-title {
     text-transform: uppercase;
@@ -207,7 +236,8 @@ nav ul li a {
     justify-content: space-between;
 }
 
-.experience-location, .experience-duties-and-responsibilities-text {
+.experience-location,
+.experience-duties-and-responsibilities-text {
     font-weight: 600;
 }
 
@@ -220,7 +250,10 @@ nav ul li a {
     margin-left: 30px;
 }
 
-/* skills */
+/* end: experience container */
+
+/* start: skills container */
+
 .skills-info .block-helper {
     width: 100%;
     background-color: #f5f5f5;
@@ -257,7 +290,7 @@ nav ul li a {
     width: 90px;
 }
 
-.skills-text--large{
+.skills-text--large {
     width: 145px;
 }
 
@@ -287,9 +320,14 @@ nav ul li a {
     list-style-type: disc;
 }
 
-.fa-solid, .fa-brands {
+/* end: skills container */
+
+.fa-solid,
+.fa-brands {
     color: var(--dark-purple-color);
 }
+
+/* start: code example container */
 
 pre {
     border-radius: 8px 0 0 8px;
@@ -297,9 +335,13 @@ pre {
     font-family: monospace;
     font-size: 0.9rem;
     background-color: #f5f5f5;
-    margin-left: -391px;
-    margin-right: -40px;
+    margin-left: -90px;
+    /* margin-right: -40px; */
 }
+
+/* end: code example container */
+
+/* start: footer container */
 
 footer {
     color: var(--white-color);
@@ -307,7 +349,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    align-items: center;
+    align-items: end;
 }
 
 footer .fa-brands {
@@ -317,10 +359,12 @@ footer .fa-brands {
 }
 
 footer a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: var(--white-color);
 }
 
 footer img {
     height: 50px;
 }
+
+/* end: footer container */
